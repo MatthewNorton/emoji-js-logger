@@ -1,0 +1,30 @@
+{
+  "name": "js-logger-utility",
+  "version": "1.0.0",
+  "description": "A handy logger utility with emoji descriptions.",
+  "main": "src/logger.js",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewNorton/js-logger-utility.git"
+  },
+  "keywords": [
+    "logger",
+    "debugging"
+  ],
+  "author": "Matt Norton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatthewNorton/js-logger-utility/issues"
+  },
+  "homepage": "https://github.com/MatthewNorton/js-logger-utility#readme",
+  "devDependencies": {
+    "jest": "^29.6.2"
+  }
+}
