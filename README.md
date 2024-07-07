@@ -18,11 +18,17 @@ No installation needed! Just copy the logger code into your project, and you're 
 Here's how to log a simple function:
 
 ```javascript
-function exampleFunction(x) {
-  return x * x;
+// Example function to be logged
+function add(a, b) {
+  return a + b;
 }
-const loggedFunction = logger("Functions", exampleFunction);
-loggedFunction(5); // Logs input, source, and output with emoji
+
+// Wrap the example function with the logger
+const loggedAdd = logger("Math and Numbers", add, ENABLE_LOGGING);
+
+// Use the wrapped function
+const result = loggedAdd(3, 5);
+console.log("Logged result:", result); // This should output: Logged result: 8
 ```
 
 Refer to the original code for more examples of how to use the logger with different constructs.
